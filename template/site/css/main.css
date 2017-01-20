@@ -1,5 +1,5 @@
 body {
-background-color: black;
+background-color: lime;
 color: white;
 }
 
@@ -18,7 +18,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:100%;
+    width:50%;
 }
 
 main {
@@ -54,6 +54,11 @@ and (-webkit-min-device-pixel-ratio: 2){
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: auto;
     }
+  aside {
+display: none;
+
+  }
 
 }
