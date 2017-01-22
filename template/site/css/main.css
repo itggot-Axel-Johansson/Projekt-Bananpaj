@@ -1,34 +1,42 @@
 body {
-background-color: lime;
-color: white;
+    background-color: lime;
+    color: white;
 }
 
 .container {
-align-items: center;
-color: blue;
-display: flex;
-flex-direction: column;
+    align-items: center;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 80%;
+    
 }
 header {
-
+    background-color: bisque;
 
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width:50%;
+    justify-content: space-around;
+    width: 100%;
+    background-color: crimson;
 }
 
 main {
-
-
+    background-color: chocolate;
 }
 
 footer {
+    background-color: fuchsia;
 
-
+}
+aside {
+    background-color: aqua;
+    width: 20%;
+    height: 184px;
 }
 
 @media only screen
@@ -42,6 +50,11 @@ and (-webkit-min-device-pixel-ratio: 2){
         display: flex;
         flex-direction: column;
         width: auto;
+        float: none;
+    }
+    body {
+        background-color: lime;
+        color: white;
     }
     header {
         background-color: red;
@@ -56,9 +69,8 @@ and (-webkit-min-device-pixel-ratio: 2){
         justify-content: center;
         width: auto;
     }
-  aside {
-display: none;
-
-  }
+    aside {
+    display: none;
+    }
 
 }
