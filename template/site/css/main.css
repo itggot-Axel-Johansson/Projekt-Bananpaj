@@ -1,13 +1,24 @@
 body {
-background-color: lime;
-color: white;
+    background-color: lime;
+    color: white;
 }
 
 .container {
-align-items: center;
-color: blue;
-display: flex;
-flex-direction: column;
+    align-items: center;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    float: left;
+}
+div.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: aqua;
+}
+div.red {
+    background-color: red;
 }
 header {
 
@@ -29,6 +40,11 @@ main {
 footer {
 
 
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color: red;
 }
 
 @media only screen
@@ -57,7 +73,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         width: auto;
     }
   aside {
-display: none;
+        display: none;
 
   }
 
