@@ -57,7 +57,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         color: blue;
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 100%;
     }
     header {
         background-color: red;
