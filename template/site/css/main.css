@@ -3,6 +3,11 @@ body {
     color: white;
 }
 
+.bilder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .container {
     align-items: center;
     color: blue;
